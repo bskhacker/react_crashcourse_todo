@@ -56,7 +56,7 @@ addTodo = (title) => {
       <div className="App">
         <div className="container">
           <Header />
-          <Route exact path="/" render={props => (
+          <Route exact path="/react_crashcourse_todo" render={props => (
             <React.Fragment>
               <AddTodo addTodo={this.addTodo} />
             <Todos todos={this.state.todos} markComplete = {this.markComplete} 
